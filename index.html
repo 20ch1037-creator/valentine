@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Valentine ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heart-bg"></div>
+
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="celebration-music" loop>
+        <source src="celebration.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="game-screen">
+        <h1 class="main-title">For khushuu ❤️</h1>
+        
+        <div id="game-board"></div>
+
+        <div class="footer-text">
+            <div class="left-text">Match<br><span>the photo pairs</span></div>
+            <div class="right-text">to reveal<br><span>the surprise</span></div>
+        </div>
+    </div>
+
+    <div id="proposal-screen" class="hidden">
+        <div class="proposal-content">
+            <img src="us-main.jpg" alt="Us" id="main-photo">
+            <h1 id="proposal-text">Will you be my Valentine? 🌹</h1>
+            <div class="buttons">
+                <button id="yes-btn">YES! 🥰</button>
+                <button id="no-btn">No 😢</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
